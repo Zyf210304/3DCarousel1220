@@ -11,6 +11,9 @@
 		02E63D0D295153F100E0AFEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E63D0C295153F100E0AFEB /* ContentView.swift */; };
 		02E63D0F295153F200E0AFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E63D0E295153F200E0AFEB /* Assets.xcassets */; };
 		02E63D12295153F200E0AFEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E63D11295153F200E0AFEB /* Preview Assets.xcassets */; };
+		02E63D1B2951553700E0AFEB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E63D1A2951553700E0AFEB /* Card.swift */; };
+		02E63D1D29518ACF00E0AFEB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E63D1C29518ACF00E0AFEB /* Home.swift */; };
+		02E63D1F29518E0F00E0AFEB /* Carousel3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E63D1E29518E0F00E0AFEB /* Carousel3D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		02E63D0C295153F100E0AFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02E63D0E295153F200E0AFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02E63D11295153F200E0AFEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02E63D1A2951553700E0AFEB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		02E63D1C29518ACF00E0AFEB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		02E63D1E29518E0F00E0AFEB /* Carousel3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel3D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		02E63D09295153F100E0AFEB /* 3DCarousel1220 */ = {
 			isa = PBXGroup;
 			children = (
+				02E63D192951548C00E0AFEB /* View */,
+				02E63D182951548300E0AFEB /* Model */,
 				02E63D0A295153F100E0AFEB /* _DCarousel1220App.swift */,
 				02E63D0C295153F100E0AFEB /* ContentView.swift */,
 				02E63D0E295153F200E0AFEB /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				02E63D11295153F200E0AFEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02E63D182951548300E0AFEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02E63D1A2951553700E0AFEB /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02E63D192951548C00E0AFEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02E63D1C29518ACF00E0AFEB /* Home.swift */,
+				02E63D1E29518E0F00E0AFEB /* Carousel3D.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +164,9 @@
 			files = (
 				02E63D0D295153F100E0AFEB /* ContentView.swift in Sources */,
 				02E63D0B295153F100E0AFEB /* _DCarousel1220App.swift in Sources */,
+				02E63D1D29518ACF00E0AFEB /* Home.swift in Sources */,
+				02E63D1B2951553700E0AFEB /* Card.swift in Sources */,
+				02E63D1F29518E0F00E0AFEB /* Carousel3D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
