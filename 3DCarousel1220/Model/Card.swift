@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Card: Identifiable, Equatable {
+struct Card: Identifiable, Equatable, Hashable {
     var id: String = UUID().uuidString
     var imageFile: String
 }
